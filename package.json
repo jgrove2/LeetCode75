@@ -1,0 +1,13 @@
+{
+  "name": "leetcode75",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "1768:dev": "bun --filter merge_strings_alternately dev",
+    "1768:test": "bun --filter merge_strings_alternately test"
+  },
+  "workspaces": [
+    "array/*"
+  ]
+}
