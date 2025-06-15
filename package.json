@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "1768:dev": "bun --filter merge_strings_alternately dev",
-    "1768:test": "bun --filter merge_strings_alternately test"
+    "1768:test": "bun --filter merge_strings_alternately test",
+    "1071:dev": "bun --filter greatest_common_divisor_of_strings dev",
+    "1071:test": "bun --filter greatest_common_divisor_of_strings test"
   },
   "workspaces": [
     "array/*"
